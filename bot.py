@@ -1,6 +1,15 @@
+import os
 import requests
+from dotenv import load_dotenv
 
-API_KEY = "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"  # Replace with your OpenRouter API key
+# Load environment variables from .env
+load_dotenv()
+
+# Get API key from environment variable
+API_KEY = os.getenv("OPENROUTER_API_KEY")
+if not API_KEY:
+    raise ValueError("OPENROUTER_API_KEY not set in environment variables.")
+
 MODEL = "anthropic/claude-3-haiku"
 API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
