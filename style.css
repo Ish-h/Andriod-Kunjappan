@@ -1,0 +1,55 @@
+/* Background & general text */
+body, .main {
+    background-color: #be7911;
+    color: #333;
+    font-family: 'Manjari', sans-serif;
+}
+
+/* Title block */
+.title-block {
+    text-align: center;
+    margin-top: 20px;
+}
+.title-block h1 {
+    font-size: 48px;
+    color: #222;
+}
+.title-block p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* About box */
+.about-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ffedd5;
+    border-radius: 12px;
+    padding: 12px;
+    max-width: 250px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.about-box .bot-img {
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.about-text {
+    font-size: 14px;
+    color: #e8dd13;
+}
+
+/* Chat styling */
+.chat-message {
+    margin: 8px 0;
+}
+
+/* Expander styling */
+.css-1v0mbdj {
+    background-color: #bd8e29 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
