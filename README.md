@@ -5,8 +5,8 @@ It provides **simple text guidance** for common smartphone tasks, all in a warm 
 
 ## ✨ Features
 
-- 🗣 **Malayalam Voice Input** – Speak naturally and the bot understands you.  
-- 🔊 **Malayalam Voice Output** – The bot replies with spoken Malayalam.  
+- 🗣 **Malayalam  Input** – Speak naturally and the bot understands you.  
+- 🔊 **Malayalam  Output** – The bot replies with spoken Malayalam.  
 - 💬 **Real-time AI Responses** – No fixed scripts; powered by AI for flexible answers.  
 - 🖥 **Simple & Elder-Friendly UI** – Large buttons, clear text, and easy navigation.  
 - 📜 **Chat History** – Messages appear like ChatGPT, newest at the bottom.  
